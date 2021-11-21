@@ -52,7 +52,7 @@ import Data.TraversableWithIndex (class TraversableWithIndex, traverseWithIndex)
 import Data.Tuple (Tuple(..), curry, fst, snd, uncurry) as Exports
 import Data.Tuple.Nested (type (/\), (/\)) as Exports
 import Data.Unfoldable (class Unfoldable, unfoldr) as Exports
-import Debug (todo, debugger) as Exports
+import Debug (debugger) as Exports
 import Effect (Effect) as Exports
 import Effect.Class as Exports
 import Effect.Class.Console (log, logShow) as Exports
@@ -65,7 +65,6 @@ import MasonPrelude.Parallel as Exports
 import PointFree as Exports
 import Unsafe.Coerce (unsafeCoerce) as Exports
 import Type.Proxy (Proxy(..)) as Exports
-
 import Data.String.CodeUnits as CU
 import Math (pow)
 import Prelude (mod)
